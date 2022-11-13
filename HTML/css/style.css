@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "lovecraft";
+    src: url("../fonts/lovecraft.otf");
+}
+
+
+body {
+    background-color: rgb(182, 211, 17);
+    color: white;
+    margin: 0;
+
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    /* font-size: 20px; */
+    color: rgb(226, 43, 98);
+    /* font-family: "lovecraft";
+    font-weight: 200; */
+
+    font: 200 20px "lovecraft";
+    text-align: justify;
+    line-height: 1.5em;
+    /* margin: 20px; */
+    /* margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    margin-left: 20px; */
+    /* margin: 20px 20px 60px 20px; */
+    margin: 60px 20px;
+    border: 3px solid black;
+    padding: 40px;
+}
+
+.hm1 {
+    color: rgb(0, 255, 0);
+}
+/* .box-1 {
+    background: #333;
+color: #fff;
+text-align: justify;
+
+
+
+
+
+}
+.box-2 h1 {
+    text-transform: uppercase;
+    text-decoration: underline; */
+
+.categories{
+border: 1px dotted #333;
+border-radius: 15px;
+margin: 20px 20px;
+padding: 30px;
+border-radius: center;
+
+}
+.categories h3{
+text-align: center;
+}
+.categories ul{
+    list-style: none;
+    padding: 0px;
+}
+.categories li{
+    padding-bottom: 5px;
+ list-style-image: url("../images/box-check.png") ; 
+}
+.categories a{
+    text-decoration: none;
+    color: #333;
+}
+.grid-container{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
+
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    color: #000;
+
+}
+.grid-item{
+    background: #fff;
+    border: 3px solid #ddd;
+    padding: 30px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+margin: 0;
+color: #000;
+}
+.flex-item{
+    margin: 0.5rem;
+    background: #fff;
+    border: 3px solid green;
+    padding: 30px;
+}
